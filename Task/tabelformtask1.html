@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+
+<body>
+  <h2>Application Form</h2>
+     <form>
+        <table>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" name="firstname"></td>
+                <td>Last Name:</td>
+                <td><input type="text" name="lastname"></td>
+            </tr>
+            <tr>
+                <td>Date of birth:</td>
+                <td><input type="date" name="dob"></td>
+                <td>Age:</td>
+                <td><input type="number" name="age"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <select name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </td>
+                <td>Email Address:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+           <tr>
+    <td>Positions Available:</td>
+    <td colspan="3">
+        <label for="junior">Junior Developer</label>
+        <input type="radio" name="position" id="junior" value="Junior Developer">
+        
+        <label for="mid">Mid-level Developer</label> 
+        <input type="radio" name="position" id="mid" value="Mid-level Developer">
+        
+        <label for="senior">Senior Developer</label> 
+        <input type="radio" name="position" id="senior" value="Senior Developer"> 
+    </td>
+</tr>
+
+            <tr>
+                <td>Programming Languages:</td>
+                <td colspan="3">
+                    <label for="java">Java</label>
+                    <input type="checkbox" name="" id="java"> 
+                    <label for="javaScript">Javascript</label>
+                    <input type="checkbox" name="" id="javascript"> 
+                    <label for=" python">Python</label>
+                    <input type="checkbox" name="" id="python">
+                </td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password"></td>
+                <td>Confirm Password:</td>
+                <td><input type="password" name="confirmpassword"></td>
+            </tr>
+            <tr>
+                <td colspan="4" align="center">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+
+
+
